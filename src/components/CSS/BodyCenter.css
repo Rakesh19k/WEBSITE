@@ -1,0 +1,233 @@
+.body_center {
+    margin-top: 45% ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+hr{
+    margin-top: 40px;
+    z-index: -1;
+}
+
+.btn_groups {
+    position: relative;
+    margin-top: -20px;
+    z-index: 1;
+}
+
+.btn_groups > button {
+    padding: 8px 25px;
+    font-weight: 600;
+}
+
+.active_btn{
+    background: rgb(201,92,117);
+    background: linear-gradient(90deg, rgba(201,92,117,1) 0%, rgba(93,85,203,1) 100%);
+    border-radius: 20px;
+    z-index: 2;
+    border: 1px solid burlywood;
+    color: white;
+}
+
+.unactive_btn {
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 20px;
+    border-bottom-left-radius:0;
+    border-top-left-radius: 0;
+    z-index: -1;
+    position: relative;
+    left: -14px;
+}
+
+.card_features{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.card_features_text{
+    text-align: left;
+}
+
+.card_features_text > h2 {
+    font-weight: 400;
+    margin-bottom: -6px;
+}
+
+.card_features_text > span {
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.card_features_cards{
+    display: flex;
+    justify-content: space-between;
+    flex: 0.60;
+}
+
+.card_yellow_div {
+    display: block;
+}
+
+.card_yellow{
+    height: 65px;
+    width: 120px;
+    background: #FFB50C;
+    position: relative;
+    border-radius: 5px;
+}
+
+.card_yellow > img {
+    position: absolute;
+    top:8px;
+    left: 8px;
+}
+
+.card_yellow > h3 {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    font-size: 10px;
+    color: whitesmoke;
+}
+
+.card_money {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.card_money > h3 {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.card_money > h3 > span {
+    color: tomato;
+    font-size: 22px;
+}
+
+.card_blue{
+    height: 65px;
+    width: 120px;
+    background: #00A2ED;
+    position: relative;
+    border-radius: 5px;
+}
+
+.card_blue > img {
+    position: absolute;
+    top:8px;
+    left: 8px;
+}
+
+.card_blue > h3 {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    font-size: 10px;
+    color: whitesmoke;
+}
+
+.card_black{
+    height: 65px;
+    width: 120px;
+    background: #0A2540;
+    position: relative;
+    border-radius: 5px;
+}
+
+.card_black > img {
+    position: absolute;
+    top:8px;
+    left: 8px;
+}
+
+.card_black > h3 {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    font-size: 10px;
+    color: whitesmoke;
+}
+
+.card_tables {
+    margin-top: 30px;
+}
+
+.card_table {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 0 13px 10px;
+    flex: 0.25;
+    align-items: center;
+}
+
+.card_table > h3 {
+    font-size: 12px;
+    color: gray;
+    font-weight: 400;
+}
+
+.table {
+    justify-content: space-evenly;
+    flex: 0.65;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.table > .yellow {
+    border: 2px solid orange;
+    padding: 4px 2px;
+}
+
+
+.table > .blue {
+    border: 2px solid #00A2ED;
+    padding: 4px 2px;
+}
+
+.table > .black {
+    border: 2px solid #0A2540;
+    padding: 4px 2px;
+}
+
+.table > span {
+    font-size: 10px;
+    margin: 4px 25px;
+    color: rgb(158, 158, 158);
+}
+
+.order_btn_groups{
+    margin: 30px 0;
+    float: right;
+    justify-content: space-evenly;
+
+}
+
+.order_btn_groups > button {
+    padding: 6px 16px;
+    border-radius: 20px;
+    margin: 0 10px;
+    border: 1px solid #00A2ED;
+}
+
+.order_btn_active {
+    border: 1px solid #00A2ED;
+    background-color: #00A2ED;
+    color: whitesmoke;
+}
+
+.legal_text{
+    margin-top: 50%;
+    background-color: #0A2540;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
